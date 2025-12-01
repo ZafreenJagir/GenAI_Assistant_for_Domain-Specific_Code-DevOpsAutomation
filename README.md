@@ -17,34 +17,35 @@ It supports multiple project types like **To-do App,Simple Chatbot,Calculators, 
 ## Project Architecture:
 
 A diagram showing how modules interact:
-main.py
-app.py → Flask server
-modules/code_generator.py → Generates boilerplate
-modules/test_generator.py → Generates tests
-modules/docs_generator.py → Generates documentation
-dataset/dataset.json → Project templates
+
+- main.py
+- app.py → Flask server
+- modules/code_generator.py → Generates boilerplate
+- modules/test_generator.py → Generates tests
+- modules/docs_generator.py → Generates documentation
+- dataset/dataset.json → Project templates
 
 ## Supported Project Type:
 
-Calculator
-REST API
-To-Do App
-Weather App
-Contact Manager
-File Manager
-Simple Chatbot
-Banking App
-Blog App
-Quiz App
-Currency Converter
-Text Editor
-Note App
-Simple Game
-Inventory System
-Password Checker
-Email Sender
-Number Guess Game
-Simple Counter
+- Calculator
+- REST API
+- To-Do App
+- Weather App
+- Contact Manager
+- File Manager
+- Simple Chatbot
+- Banking App
+- Blog App
+- Quiz App
+- Currency Converter
+- Text Editor
+- Note App
+- Simple Game
+- Inventory System
+- Password Checker
+- Email Sender
+- Number Guess Game
+- Simple Counter 
 
 ## Future Enhancements:
 
