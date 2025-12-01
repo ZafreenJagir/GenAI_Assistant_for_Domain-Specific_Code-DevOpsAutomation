@@ -59,19 +59,26 @@ Shows the reviewers that your project can grow further:
 
 <img width="1906" height="897" alt="image" src="https://github.com/user-attachments/assets/e01bc544-a528-43f5-a75b-b475b1b8cb72" />
 
+
 ##### Example1: To-do App
 
 <img width="1907" height="904" alt="image" src="https://github.com/user-attachments/assets/d219d048-6bf5-463e-b65c-56f0a64aca76" />
 
+
 <img width="1892" height="886" alt="image" src="https://github.com/user-attachments/assets/024cfe76-bc1e-48bd-984d-c9cf8819e7a4" />
+
 
 <img width="1906" height="897" alt="image" src="https://github.com/user-attachments/assets/2e6270dc-23c6-4c9e-ab2a-673b5945dde0" />
 
+
 <img width="1888" height="891" alt="image" src="https://github.com/user-attachments/assets/52068aef-aec2-41ed-8f2d-9eaebd8b6f61" />
+
+
 
 ##### Example2: Weather App
 
 <img width="1904" height="904" alt="image" src="https://github.com/user-attachments/assets/328cd213-01c5-405c-899a-c6e05d74e04c" />
+
 
 <img width="1886" height="871" alt="image" src="https://github.com/user-attachments/assets/a0a09e5f-3881-472f-8c90-2d5074cc4f92" />
 
@@ -79,9 +86,12 @@ Shows the reviewers that your project can grow further:
 
 <img width="1902" height="902" alt="image" src="https://github.com/user-attachments/assets/6daa00e8-f2ea-4bcd-a0b3-9f56edc38d73" />
 
+
 <img width="1901" height="887" alt="image" src="https://github.com/user-attachments/assets/d034410f-2a86-4553-8524-8256ec6efeac" />
 
+
 <img width="1883" height="898" alt="image" src="https://github.com/user-attachments/assets/534c08e4-837a-44b8-8274-2e7078928d38" />
+
 
 ##### Example4: Simple Chatbot
 
