@@ -12,8 +12,17 @@ with open(DATASET_PATH, "r") as file:
     DATASET = json.load(file)
 
 
-def generate_code(project_key):
+def generate_code(project_key, language="python"):
     project = DATASET.get(project_key)
-    if project and "boilerplate" in project:
-        return project["boilerplate"]
+
+    if project:
+        # language-specific boilerplate
+        if "boilerplate" in project:
+            if isinstance(project["boilerplate"], dict):
+                return project["boilerplate"].get(
+                    language,
+                    f"# Boilerplate not available for {language}"
+                )
+            return project["boilerplate"]
+
     return f"# No boilerplate code found for '{project_key}'."
