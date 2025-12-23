@@ -1,23 +1,36 @@
 from modules.code_generator import generate_code
 from modules.test_generator import generate_tests
 from modules.docs_generator import generate_docs
+from modules.intent_parser import extract_project_type
+
 
 def main():
-    print("\n=== AI Code Assistant ===")
-    print("Available domains: Calculator, REST API, Chatbot, ML Model")
+    print("\n🤖 === Conversational GenAI Code Assistant ===")
+    print("Describe the project you want to build (in natural language).\n")
 
-    project = input("\nEnter your project type: ")
+    user_input = input("🧑 You: ")
 
-    print("\n----- Generated Code -----\n")
-    print(generate_code(project))
+    project_key = extract_project_type(user_input)
 
-    print("\n----- Generated Tests -----\n")
-    print(generate_tests(project))
+    if not project_key:
+        print("\n❌ AI: Sorry, I couldn't identify the project type.")
+        print("Try describing it using different keywords.")
+        return
 
-    print("\n----- Generated Docs -----\n")
-    print(generate_docs(project))
+    print(f"\n🤖 AI: Detected project → '{project_key.replace('_', ' ')}'")
+    print("Generating boilerplate code, tests, and documentation...\n")
 
-    print("\n✔ Program Finished Successfully!")
+    print("📌 ----- Generated Code -----\n")
+    print(generate_code(project_key))
+
+    print("\n🧪 ----- Generated Tests -----\n")
+    print(generate_tests(project_key))
+
+    print("\n📄 ----- Generated Documentation -----\n")
+    print(generate_docs(project_key))
+
+    print("\n✅ AI: Generation completed successfully!")
+
 
 if __name__ == "__main__":
     main()
